@@ -33,9 +33,14 @@ body {
   border-radius: 20px;
 }
 
+.isi-kiri {
+  background-color: rgb(97, 97, 97);
+  border-radius: 20px;
+}
+
 .kanan {
   padding: 20px;
-  background-color: dimgray;
+  background-color: rgb(97, 97, 97);
 }
 
 .kanan h1 {
@@ -47,7 +52,7 @@ body {
 
 .login {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*menata item secara vertikal*/
   justify-content: center;
 }
 
@@ -64,19 +69,18 @@ body {
 }
 
 label, button, input {
-  display: block;
   margin: 2px;
   padding: 7px;
   color: aliceblue;
 }
 
 button, input {
-  border: none;
+  border: none; /*menghilangkan boder pada input dan button*/
   border-radius: 5px;
   background-color: gray;
 }
 
 input::placeholder {
-  color: aliceblue;
+  color: aliceblue; /*mewarnai placholder pada input*/
 }
 
